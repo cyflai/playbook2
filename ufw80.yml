@@ -1,0 +1,5 @@
+---
+ - hosts: all
+   tasks: 
+    - name: open firewall port 80
+      ufw: port=80 rule=allow
