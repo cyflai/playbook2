@@ -1,7 +1,0 @@
----
- - hosts: all
-   tasks:
-   - name: install apache
-     apt: name=apache2 state=latest update_cache=yes
-   - name: start and enable the service
-     service: name=apache2 enabled=yes state=started
