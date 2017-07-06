@@ -1,5 +1,0 @@
----
- - hosts: all
-   tasks:
-   - name: enable port 80
-     ufw: enabled=yes rule=allow
